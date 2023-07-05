@@ -1,14 +1,17 @@
 # try and catch is used to handle exceptions
 
 # Excercises
-
 # index error
 try:
     items = [1,2,3,4,5]
-    item = items[6]
+    item = items[2]
     print(item)
 except IndexError as e:
     print(e)
+else:
+    print("I only run if there is no exception")
+finally:
+    print("I run no matter what")
     
     
 #ZeroDivisionError
@@ -28,3 +31,5 @@ try:
         print(file.read())
 except:
     print("Unable to locate file")  
+    
+# Checkout more about exceptions in the documentation of python https://realpython.com/python-exceptions/
