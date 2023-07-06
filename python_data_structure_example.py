@@ -16,6 +16,8 @@ employee_dict = {
     2: {"id":2,"name":"Nick","salary":6000, "department": "IT"},
 }
 
+print(type(employee_dict))
+
 def get_employee_from_dict(id):
     return employee_dict[id]
 
