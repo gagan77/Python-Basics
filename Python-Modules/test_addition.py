@@ -7,7 +7,7 @@ def test_add():
     
     
 def test_sub(): # 
-    assert addition.sub(2,3) == -2
+    assert addition.sub(2,3) == -1
     
 # need to install pip package to use pytest
-# python -m pytest test_addition.py is used to run the test cases
+# python -m pytest test_addition.py:: test_add is used to run the test cases
